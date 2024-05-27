@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 79px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: SemiBold, sans-serif;
+    font-weight: bold;
+    padding: 0px 12px;
+}
+.menu button{
+        height: 44px;
+        width: 163px;
+        letter-spacing: 1px;
+        background: #ff2b85;
+        border: none;
+        border-radius: 30px;
+        color: white;
+        font-family: SemiBold, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+}
+.banner{
+    background: url('../image/food2.jpg');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    margin-top: 23px;
+}
+.banner .h{
+    text-align: center;
+    color: #ff2b85;
+    font-size: 40px;
+    /* padding-top: 221px; */
+    font-family: SemiBold, sans-serif;
+    background: white;
+    position: relative;
+    top: 45%;
+    margin: auto;
+    width: 40%;
+}
+.news{
+    background: blue;
+    width: 100%;
+    height: 50px;
+}
+.news marquee{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:  SemiBold, sans-serif;
+    line-height: 50px;
+}

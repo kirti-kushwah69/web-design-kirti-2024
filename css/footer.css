@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+footer{
+    background-color:rgb(99, 241, 99);
+    width: 100%;
+    height: 266px;
+
+
+}
+.footer-content{
+    margin: 40px 50px;
+    float: left;
+    
+}

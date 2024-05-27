@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background:#9de310a3;
+    width: 100%;
+    height: 80px;
+    /* margin-top: 10px; */
+    position: relative;
+    top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 100px 0 100px;
+}
+.logo img{
+    width: 180px;
+    height: 50px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #2d517e;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 0 15px 0 0;
+}
+.menu button{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    color: #2d517e;
+    font-weight: bold;
+    background: linear-gradient(to right,rgb(33, 215, 33),#9de310a3);
+}
+.menu button:hover{
+    background: linear-gradient(to right,skyblue, #8ea9cb);
+}
+.banner{
+    background: url('../image/farm3.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 5px;
+}
+.banner p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 185px;
+    letter-spacing: 1px;
+}
+.news{
+    background: #d5a654;
+    width: 100%;
+    height: 60px;
+}
+.news marquee{
+    color:green;
+    font-family: monospace;
+    line-height: 60px;
+    font-size: 18px;
+}
+.nutri{
+    background: #e7e3e3a6;
+    width: 100%;
+    height: 331px ;
+}
+.b1{
+    background:url('../image/farm4.jpg');
+    width: 100%;
+    height: 390px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 110px;
+}
+.b1 h1{
+    text-align: center;
+    color:#2d517e ;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 33px;
+    position: relative;
+    top: -66px;
+    font-weight: 100;
+    text-shadow: 3px -3px 3px darkgreen;
+}
+.b1 p{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+    top: 145px;
+    background-color:#9de310f7;
+    margin: auto;
+    width: 60%;
+    height: 59px;
+    padding: 8px;
+    text-shadow: 3px -4px 3px darkgreen;
+}
+.product h1{
+    text-align: center;
+    color:#2d517e;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 45px;
+    position: relative;
+    top: 125px;
+    font-weight: 100;
+    text-shadow: 3px -4px 3px darkgreen;
+}
+.text{
+    color: #99df0f;
+}
+.our{
+    margin-left: 76px;
+}
+.p1{
+    /* border: 2px solid green;
+    width: 360px;
+    height: 270px; */
+    float: left;
+    position: relative;
+    top: 157px;
+    margin-left: 23px;
+    margin-bottom: 40px;
+    background: #d7e55f3d;
+    /* padding: 22px 0px; */
+    margin-right: 15px;
+}
+.p1 img{
+    width: 360px;
+    height: 270px;
+    box-shadow: 5px 6px 28px lawngreen;
+}
